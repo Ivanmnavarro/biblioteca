@@ -1,0 +1,37 @@
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: grey;
+}
+
+.logo{
+    margin: 30px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin: 30px;
+}
+
+.item {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.sesion {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color: #007bff;
+   }
